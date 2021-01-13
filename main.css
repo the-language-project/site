@@ -1,0 +1,243 @@
+*{margin:0;}
+
+
+html {
+    font-family: 'Marker Felt';
+}
+
+.main-body {
+    height: 100%;
+    background-image: url('images/conveniencestore.jpg');
+    background-size: cover;
+}
+
+.top-bar {
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-top: solid;
+    border-bottom: solid;
+    
+}
+
+.title {
+    
+    max-height: 100px;
+    width: 150px;
+
+}
+
+.inline {
+    display: inline;
+
+}
+
+.menu-nav {
+    float: right;
+    height: 200%;
+    font-size: xx-large;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.main {
+    background-color: gold;
+    margin: auto;
+    width: 80%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 15px;
+    border: solid;
+}
+
+.slogan {
+    font-size: 100px;
+}
+
+.intro {
+    font-size: 25px;
+}
+
+.footer {
+    background-color: white;
+    height:100px;
+    position:relative;
+    line-height:180%;
+    padding:0 10px;
+    border-top: solid;
+    border-bottom: solid;
+    vertical-align: bottom;
+}
+
+
+.footer-text {
+    text-align: center;
+    
+}
+
+
+/* About page */
+
+.about-body {
+    background-color: gold;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+
+.profile-div {
+    background-image: url('images/keyboard.jpg');
+    background-size: cover;
+    margin: auto;
+    width: 80%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 15px;
+    border: solid;
+    vertical-align: middle;
+}
+
+
+.profile-pic {
+    max-width: 150px;
+    max-height: 150px;
+    border: solid;
+    border-radius: 50%;
+}
+
+.summary-div {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* Services page */
+
+.services-body {
+    height: 100%;
+    background-image: url('images/mobileroad.jpg');
+    background-size: cover;
+}
+
+.services {
+    background-color: white;
+    margin: auto;
+    width: 80%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 15px;
+    border: solid;
+}
+
+.process {
+    border-radius: 15px;
+    border: dotted;
+    padding: 20px;
+    font-size: large;
+}
+
+
+.routes {
+    border-radius: 15px;
+    border: dotted;
+    padding: 20px;
+    font-size: large;
+}
+
+.include {
+    border-radius: 15px;
+    border: dotted;
+    padding: 20px;
+    font-size: large;
+}
+
+.protection {
+    border-radius: 15px;
+    border: dotted;
+    padding: 20px;
+    font-size: large;
+}
+
+
+/* Contact page */
+
+
+.contact-body {
+    height: 100%;
+    background-image: url('images/conveniencestore2.jpg');
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.contact-form {
+    background-color: gold;
+    margin: auto;
+    width: 80%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 15px;
+    border: solid;
+    vertical-align: middle;
+}
+
+.get-in-touch {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.form {
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 15px;
+    border: solid;
+}
+   
+
+.fields {
+    display: inline-flex;
+    width: 100%;
+
+}
+
+.form-left {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+input[type="text"],
+input[type="email"] {
+    margin: auto;
+}
+
+
+.form-right {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+textarea {
+    height: 100px;
+    max-width: 200px;
+    margin: auto;
+}
+
+
+input[type="submit"] {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
