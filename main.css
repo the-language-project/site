@@ -86,7 +86,7 @@ a {
 /* About page */
 
 .about-body {
-    background-color: gold;
+    background-color: white;
     background-size: cover;
     vertical-align: middle;
 }
@@ -109,7 +109,6 @@ a {
     max-width: 150px;
     max-height: 150px;
     border: solid;
-    border-radius: 50%;
 }
 
 .summary-div {
@@ -178,7 +177,7 @@ a {
 }
 
 .contact-form {
-    background-color: gold;
+    background-color: white;
     margin: auto;
     width: 80%;
     height: fit-content;
