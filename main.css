@@ -106,8 +106,8 @@ a {
 
 
 .profile-pic {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 120px;
+    max-height: 120px;
     border: solid;
     border-radius: 50%;
 }
