@@ -50,7 +50,7 @@ a {
 .main {
     background-color: white;
     margin: auto;
-    width: 80%;
+    width: 60%;
     height: fit-content;
     padding: 30px;
     border-radius: 15px;
@@ -96,7 +96,7 @@ a {
     background-image: url('images/keyboard.jpg');
     background-size: cover;
     margin: auto;
-    width: 80%;
+    width: 60%;
     height: fit-content;
     padding: 30px;
     border-radius: 15px;
