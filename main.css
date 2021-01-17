@@ -36,9 +36,7 @@ html {
 }
 
 .menu-nav {
-    float: right;
     height: 200%;
-    font-size: xx-large;
 }
 
 a {
@@ -82,6 +80,10 @@ a {
     
 }
 
+.social-icon {
+    max-width: 50px;
+    max-height: 50px;
+}
 
 /* About page */
 
@@ -138,77 +140,4 @@ a {
 }
 
 
-/* Contact page */
 
-
-.contact-body {
-    height: 100%;
-    background-image: url('images/conveniencestore2.jpg');
-    background-size: cover;
-    vertical-align: middle;
-}
-
-.contact-form {
-    background-color: white;
-    margin: auto;
-    width: 80%;
-    height: fit-content;
-    padding: 30px;
-    border-radius: 15px;
-    border: solid;
-    vertical-align: middle;
-}
-
-.get-in-touch {
-    font-size: 30px;
-    text-align: center;
-}
-
-
-.form {
-    background-color: white;
-    margin: auto;
-    width: 90%;
-    height: fit-content;
-    padding: 30px;
-    border-radius: 15px;
-    border: solid;
-}
-   
-
-.fields {
-    display: inline-flex;
-    width: 100%;
-
-}
-
-.form-left {
-    margin: auto;
-    text-align: center;
-    width: 50%;
-}
-
-input[type="text"],
-input[type="email"] {
-    margin: auto;
-}
-
-
-.form-right {
-    margin: auto;
-    text-align: center;
-    width: 50%;
-}
-
-textarea {
-    height: 100px;
-    max-width: 200px;
-    margin: auto;
-}
-
-
-input[type="submit"] {
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-}
