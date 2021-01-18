@@ -19,7 +19,7 @@ html {
     top: 0;
     width: 100%;
     border-top: solid;
-    border-bottom: solid;
+    border-bottom: dotted;
     
 }
 
@@ -41,7 +41,7 @@ html {
 }
 
 a {
-    
+    text-decoration: none;
     color: black;
     
 }
@@ -60,9 +60,6 @@ a {
     font-size: 60px;
 }
 
-.intro {
-    font-size: 25px;
-}
 
 .footer {
     background-color: white;
@@ -70,8 +67,7 @@ a {
     position:relative;
     line-height:180%;
     padding:0 10px;
-    border-top: solid;
-    border-bottom: solid;
+    border-bottom: dotted;
     vertical-align: bottom;
 }
 
@@ -122,23 +118,12 @@ a {
 }
 
 
-/* Services page */
-
-.services-body {
-    height: 100%;
-    background-image: url('images/mobileroad.jpg');
-    background-size: cover;
-}
-
-.services {
-    background-color: white;
-    margin: auto;
-    width: 80%;
-    height: fit-content;
-    padding: 30px;
-    border-radius: 15px;
-    border: solid;
-}
+/* Resources page */
 
 
+
+
+
+
+/* Sandbox page */
 
