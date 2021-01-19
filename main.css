@@ -46,6 +46,11 @@ a {
     
 }
 
+button {
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+}
+
 .main {
     background-color: white;
     margin: auto;
