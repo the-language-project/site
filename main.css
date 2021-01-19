@@ -127,3 +127,7 @@ a {
 
 /* Sandbox page */
 
+.gform {
+    margin-left: auto;
+    margin-right: auto;
+}
