@@ -28,6 +28,19 @@
         
     </div>
     <br><br><br>
+
+    <script>
+        function toggleSection(lang) {
+            var x = document.getElementById(lang);
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            
+        }
+    </script>
+
 </head>
 
 <br><br><br>
@@ -42,6 +55,60 @@
         </h4>
         <br><br>
         <h4>Looking for more? Hang in there! Our comprehensive list is yet to come...</h4>
+
+
+        <button onclick="toggleSection('eng')">English (as a second language)</button>
+
+            <div id="eng">
+                <ul>
+                    <li><a href="https://listenaminute.com/">Listen a Minute</a></li>
+                    <li><a href="https://www.elllo.org/">English Listening Lesson Library Online</a></li>
+                    <li><a href="https://www.engvid.com/">engVid</a></li>
+                    <li><a href="https://www.ef.edu/english-resources/">Education First</a></li>
+                    <li><a href="https://www.cambridgeenglish.org/learning-english/free-resources/write-and-improve/">Cambridge English</a></li>
+                    <li><a href="https://www.newsinlevels.com/">News in Levels</a></li>
+                </ul>
+            </div>
+
+        <button onclick="toggleSection('esp')">Spanish (Español)</button>
+
+            <div id="esp">
+                <ul>
+                    <li><a href="http://www.nocomprendo.es/learn_spanish_online/spanish_for_beginners/eng/">No Comprendo - Beginner Course</a></li>
+                    <li><a href="https://fsi-languages.yojik.eu/languages/FSI/fsi-spanish-index.html">Foreign Services Institute</a></li>
+                    <li><a href="https://espanol.lingolia.com/en/">Lingolia</a></li>
+                    <li><a href="https://www.realfastspanish.com/podcasts">Real Fast Spanish</a></li>
+                    <li><a href="https://www.notesinspanish.com/">Notes in Spanish</a></li>
+                    <li><a href="https://www.deliberatespanish.com/blog">Deliberate Spanish</a></li>
+                    <li><a href="https://121spanish.com/learning-resources">One-to-one Spanish</a></li>
+                </ul>
+            </div>
+
+        <button onclick="toggleSection('fra')">French (Français)</button>
+
+            <div id="fra">
+                <ul>
+                    <li><a href="https://francais.lingolia.com/en/">Lingolia</a></li>
+                    <li><a href="https://www.ielanguages.com/frenchphonetics.html">ielanguages.com</a></li>
+                    <li><a href="https://frenchcrazy.com/2011/08/1jour1actu.html/#">1 Jour 1 Actu</a></li>
+                    <li><a href="https://apprendre.tv5monde.com/fr/exercices/a1-debutant">TV5Monde</a></li>
+                    <li><a href="https://savoirs.rfi.fr/fr/apprendre-enseigner/langue-francaise/journal-en-francais-facile">Journal en Franćais Facile</a></li>
+                    <li><a href="https://www.learner.org/series/french-in-action/">French in Action</a></li>
+                    <li><a href="http://www.bbc.co.uk/languages/french/">BBC</a></li>
+                </ul>
+            </div>
+
+        <button onclick="toggleSection('chn')">Chinese (中文）</button>
+
+            <div id="chn">
+                <ul>
+                    <li><a href="https://www.sinosplice.com/">Sinosplice</a></li>
+                    <li><a href="https://learningchinesethroughstories.com/">Learning Chinese Through Stories</a></li>
+                    <li><a href="https://www.chineseboost.com/">Chinese Boost</a></li>
+                    <li><a href="https://mychinesereading.com/a-fox-and-a-tiger/">My Chinese Reading</a></li>
+                    <li><a href="https://www.chineasy.com/talk/">Talk Chineasy</a></li>
+                </ul>
+            </div>
 
 
     </div>
