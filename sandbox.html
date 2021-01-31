@@ -28,6 +28,18 @@
         
     </div>
     <br><br><br>
+
+    <script>
+        function toggleAbout() {
+            var x = document.getElementById('about');
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            
+        }
+    </script>
 </head>
 
 <br><br><br>
@@ -38,7 +50,25 @@
         <h4>
             Sandbox is an environment cultivated to support 
             mini projects that align with The Language Project's 
-            mission. <br><br>
+            mission of promoting multilingual education nationwide. <br><br>
+
+            <button onclick="toggleAbout()" style="font-size: large;">More about Sandbox</button>
+
+            <div id="about" style="display: none;">
+                <br>
+                <p>
+                    In technical fields, the term 'sandbox' refers to an incubator of sorts, a safe place 
+                    to experiment and make mistakes. Thus, the Sandbox is an initiative that hopes to empower
+                    individuals passionate about language to spread this love through personal projects they 
+                    conduct. 
+
+                    It is of no doubt that among all the fields out there, technology is growing the quickest. With
+                    its fast growth comes an enormous range of applications. Thus, as an inherent part of The 
+                    Language Project, 
+                </p>
+            </div>
+        
+        <br><br>
             
             <strong>Have a project idea? Fill out this form.</strong> <br><br>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeAVnkyXz5k30StjibHPIHQkGG24x5kDDM6cZPQ3ggOlUFHkg/viewform?embedded=true" width="600" height="650" frameborder="1" marginheight="0" marginwidth="0" class="gform">

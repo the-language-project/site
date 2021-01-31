@@ -2,7 +2,8 @@
 
 
 html {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace; 
+
 }
 
 .main-body {
@@ -47,7 +48,7 @@ a {
 }
 
 button {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace; 
     background-color: white;
 }
 
