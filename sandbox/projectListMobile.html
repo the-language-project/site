@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sandbox</title>    
+    <link rel="shortcut icon" type="image/png" href="../images/tlp_logo2.png">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="sandbox.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/42142524ba.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--Fixed tab-->
+    <div class="top-bar">
+        &emsp;
+        <a href="../index.html" style="text-decoration: none;">
+            <h1 style="text-align: center;">The Language Project</h1>
+
+        </a>
+        <br><br>
+        <div class="menu-nav">
+            <strong>
+                &emsp;<a href="../about.html" style="text-decoration: none; font-size: large;">About</a>&emsp;
+                &emsp;<a href="../resources.html" style="text-decoration: none; font-size: large;">Resources</a>&emsp;
+                &emsp;<a href="../sandbox.html" style="text-decoration: none; font-size: large;"><span style="background-color: #FFFF00">Sandbox</span></a>&emsp;
+                &emsp;<a href="../https://www.paypal.com/biz/fund?id=ZETBG9HF9248W" target="_blank"><button style="border: solid;">Donate</button></a>&emsp;
+
+            </strong>
+        </div>
+        
+    </div>
+    <br><br><br>
+
+</head>
+
+<br><br>
+<body class="main-body">
+    <br><br><br><br>
+
+    <div>
+        <p style="text-align: center;">
+            <img src="../images/sandbox.png" style="max-height: 100px;"/>
+        </p>
+    </div>
+
+    <br><br>
+
+    <!-- slideshow start here -->
+    <!-- <div class="main"> -->
+    <!-- Slideshow container -->
+    <div class="slideshow-container main">
+        <h1 style="text-align: center;">Mobile Development</h1>
+    <!-- Full-width slides/quotes -->
+    <div class="mySlides">
+        <h3 style="text-align: center;">
+            <span style="background-color: #FFFF00">
+            Google Translate Chat
+            </span>
+        </h3>
+        <br>
+
+        <h4 style="text-align: center;">Track: Tech</h4>
+        <br>
+        <p>
+            A chat application where every message is translated to a chosen language and then translated back to the original. 
+            The users will be able to see how close/divergent the translated messages compare to the original and can be a fun 
+            exercise to see which language combinations yield the most accurate translations.
+        </p>
+    </div>
+  
+    <div class="mySlides">
+        <h3 style="text-align: center;">
+            <span style="background-color: #FFFF00">
+            Crowd-sourced Translations
+            </span>
+        </h3>
+        <br>
+
+        <h4 style="text-align: center;">Track: Tech</h4>
+        <br>
+        <p>
+            A platform where users can post text to be translated and native speakers can submit 
+            and vote on the best translation according to context.
+        </p>
+    </div>
+  
+    <div class="mySlides">
+        <h3 style="text-align: center;">
+            <span style="background-color: #FFFF00">
+            Luri Language Website
+            </span>
+        </h3>
+        <br>
+
+        <h4 style="text-align: center;">Track: Language</h4>
+        <br>
+        <p>
+            The Luri language is a dying language in need of more public awareness. Thus, this website will be 
+            primarily used as a central place for Luri texts/resources and a way to promote the language in every way possible. 
+        </p>
+    </div>
+  
+    <!-- Next/prev buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  
+    <!-- Dots/bullets/indicators -->
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+        <!-- </div> -->
+
+    <!-- slideshow end here -->
+
+    <div class="footer">
+        <footer>
+            <br>
+            <p class="footer-text"><img class="title" src="../images/tlp_logo2.png"/> <br>
+                &#169; The Language Project 2021&emsp;|&emsp;All rights reserved&emsp;|&emsp;Tel: (301)401-9954&emsp;|&emsp;
+                <a href="mailto:contact@the-language-project.org"><img src="../images/mail.png" class="social-icon"/></a>
+                <a href="https://www.instagram.com/the.language.project/?hl=en" target="_blank">
+                    <img src="../images/ig.png" class="social-icon"/>
+                </a>
+                <a href="https://twitter.com/TheLanguagePro1" target="_blank">
+                    <img src="../images/twt.png" class="social-icon"/>
+                </a>
+                <a href="https://www.youtube.com/channel/UCgzzahbO-I2UGnRjFaQKEpA" target="_blank">
+                    <img src="../images/ytbe.png" class="social-icon"/>
+                </a>
+                <a href="https://www.linkedin.com/company/the-language-project-inc" target="_blank">
+                    <img src="../images/ln.png" class="social-icon"/>
+                </a>
+                <a href="https://www.facebook.com/thelanguageproject-102216541927883" target="_blank">
+                    <img src="../images/fb.svg" class="social-icon"/>
+                </a>
+            </p> <br>
+        </footer>
+    </div>
+
+    <script>
+        function toggleAbout() {
+            var x = document.getElementById('about');
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            
+        }
+
+        var slideIndex = 1;
+            showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n == 0) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].style.className += " active";
+        }
+    </script>
+</body>
+</html>

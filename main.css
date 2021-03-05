@@ -147,3 +147,11 @@ button {
     margin-right: auto;
     align-self: center;
 }
+
+.projectButton {
+    width: 220px;
+    background-color: white;
+    height: 50px;
+    border: 0px;
+    justify-content: space-between;
+}
