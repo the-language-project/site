@@ -1,0 +1,316 @@
+*{margin:0;}
+
+
+html {
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace; 
+
+}
+
+.main-body {
+    height: 100%;
+    background-image: url('images/conveniencestore.jpg');
+    background-size: cover;
+}
+
+
+/* overlay button stuff!!! */
+
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    padding: 10px 15px;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  /* overlay finish */ 
+
+  /* overlay newsletter */
+
+  section {
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    color: rgb(27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease background-color;
+  }
+  button[type="submit"]:hover {
+    background-color: rgb(214, 226, 236);
+  }
+  #status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  #status.success {
+    background-color: rgb(211, 250, 153);
+    animation: status 4s ease forwards;
+  }
+  #status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+  }
+  @keyframes status {
+    0% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    90% {
+      opacity: 1;
+      pointer-events: all;
+    }
+    100% {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  
+  /* finish overlay - newsletter */ 
+.top-bar {
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-top: solid;
+    border-bottom: dotted;
+    
+}
+
+.title {
+    
+    max-height: 100px;
+    width: 150px;
+
+}
+
+.inline {
+    display: inline;
+
+}
+
+.menu-nav {
+    height: 200%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+button {
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace; 
+    background-color: white;
+}
+
+.main {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 15px;
+    border: solid;
+}
+
+.slogan {
+    font-size: 60px;
+}
+
+.donate-code {
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.footer {
+    background-color: white;
+    height:100px;
+    position:relative;
+    line-height:180%;
+    padding:0 10px;
+    border-bottom: dotted;
+    vertical-align: bottom;
+}
+
+
+.footer-text {
+    text-align: center;
+    
+}
+
+.social-icon {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+/* About page */
+
+.about-body {
+    background-color: white;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+
+.profile-div {
+    background-image: url('images/keyboard.jpg');
+    background-size: cover;
+    margin: auto;
+    width: 60%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 15px;
+    border: solid;
+    vertical-align: middle;
+}
+
+
+.profile-pic {
+    max-width: 150px;
+    max-height: 150px;
+    border: solid;
+    border-radius: 50%;
+}
+
+.summary-div {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* Resources page */
+
+
+
+
+
+
+/* Sandbox page */
+
+.gform {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.projectButton {
+    width: 220px;
+    background-color: white;
+    height: 50px;
+    border: 0px;
+    justify-content: space-between;
+}
