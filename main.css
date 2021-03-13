@@ -8,14 +8,13 @@ html {
 
 .main-body {
     height: 100%;
-    background-image: url('images/conveniencestore.jpg');
     background-size: cover;
 }
 
 .top-bar {
     background-color: white;
     padding: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: fixed;
     top: 0;
     width: 100%;
@@ -39,6 +38,7 @@ html {
 .menu-nav {
     height: 200%;
     text-align: center;
+    z-index: -1
 }
 
 a {
