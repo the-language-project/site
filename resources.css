@@ -1,0 +1,12 @@
+@keyframes movingSearch {
+    from {transform: translateZ(0px);}
+    to {transform: translateZ(10px);}
+}
+
+body{
+    perspective: 1000px;
+}
+.searchImage {
+    animation: movingSearch 1s infinite;
+    animation-direction: alternate;
+}
