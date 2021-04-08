@@ -20,6 +20,7 @@ html {
     width: 100%;
     border-top: solid;
     /* border-bottom: dotted; */
+    z-index: 100;
     
 }
 
@@ -161,7 +162,8 @@ button {
    text-align: center;
    justify-content: space-between;
    width: 100vw;
-   height: 20px;
+   height: 30px;
+   overflow: hidden;
 }
 
 .flag-container img{
@@ -176,4 +178,37 @@ button {
 @keyframes moving{
     from {transform: translateX(0);}
     to {transform: translateX(10px);}
+}
+
+/* "browserTab" div */
+.browserTab {
+    width: 304px;
+    height: 30px;
+    background-color: black;
+    margin: auto;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabContent {
+    width: 300px;
+    height: 350px;
+    border: 2px solid black;
+    margin: auto;
+}
+.browserTab i{
+    color: white;
+    width: 2px;
+    height: 2px;
+    padding: 4px;
+}
+
+.browserTab #plus{
+    width: 3px;
+    height: 3px;
+    margin-right: 10px;
+}
+.browserTab p{
+    color: white;
 }

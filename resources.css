@@ -1,4 +1,4 @@
-/* @keyframes movingSearch {
+@keyframes movingSearch {
     from {transform: translateZ(0px);}
     to {transform: translateZ(10px);}
 }
@@ -9,4 +9,10 @@ body{
 .searchImage {
     animation: movingSearch 1s infinite;
     animation-direction: alternate;
-} */
+    height: 280px;
+    width: 300px;
+    margin: auto;
+    align-self: center;
+    border: 0;
+    padding: 0;
+}
