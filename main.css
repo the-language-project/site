@@ -159,6 +159,9 @@ button {
 /* flags */
 .flag-container{
    text-align: center;
+   justify-content: space-between;
+   width: 100vw;
+   height: 20px;
 }
 
 .flag-container img{
