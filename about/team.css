@@ -5,6 +5,28 @@
     margin: auto;
     width: 60%;
 }
+
+.finance {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 60%;
+}
+
+.website {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    align-items: center;
+}
+
+.website .member {
+    align-items: center;
+    margin: auto;
+}
 /* #marketing img {
     width: 100px;
     height: 100px;
@@ -62,7 +84,8 @@
     left: 10px;
     bottom: 10px;
     right: 10px;
-    background-color: #cce6f0;
+    /* background-color: #cce6f0; */
+    background-color: white;
     transition: 0.5s;
     z-index: 2;
 }
@@ -90,9 +113,9 @@ h2 {
 }
 
 h2 span {
-    font-weight: 500;
+    font-weight: 800;
     font-size: 15px;
-    color: blue;
+    color: #a2d6eb;
 }
 
 .member img {

@@ -9,9 +9,9 @@ body{
 .searchImage {
     animation: movingSearch 1s infinite;
     animation-direction: alternate;
-    height: 280px;
-    width: 300px;
-    margin: auto;
+    /* height: 250px;
+    width: 300px; */
+    margin: 0;
     align-self: center;
     border: 0;
     padding: 0;

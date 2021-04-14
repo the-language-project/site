@@ -21,7 +21,7 @@ html {
     border-top: solid;
     /* border-bottom: dotted; */
     z-index: 100;
-    
+    /* background-color: #cce6f0; */
 }
 
 .title {
@@ -172,6 +172,7 @@ button {
     width: 25px;
     animation: moving 2s infinite ease-in-out;
     animation-direction: alternate;
+    /* filter: grayscale(100%); */
 }
 
 
