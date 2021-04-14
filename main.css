@@ -213,3 +213,28 @@ button {
 .browserTab p{
     color: white;
 }
+
+ /* ambassador page */
+ .ambContent {
+    padding: 30px;
+    border-radius: 15px;
+    border: solid;
+    min-height: 500px;
+    width: 60%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 50px;
+ }
+
+ .ambContent img {
+     height: 200px;
+     width: 200px;
+     align-self: center;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+ }
+
+ .ambContent ul {
+     font-weight: 1000;
+ }

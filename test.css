@@ -110,3 +110,31 @@ h2 span {
     height: 100%;
     object-fit: cover;
 }
+
+.flag-container{
+    text-align: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 30px;
+    overflow: hidden;
+    margin: 10px;
+     height: 20px;
+     width: 25px;
+     animation: moving 2s infinite ease-in-out;
+     animation-direction: alternate;
+ }
+ 
+ .flag-container img{
+     margin: 10px;
+     height: 20px;
+     width: 25px;
+     animation: moving 2s infinite ease-in-out;
+     animation-direction: alternate;
+     /* filter: grayscale(100%); */
+ }
+ 
+ 
+ @keyframes moving{
+     from {transform: translateX(0);}
+     to {transform: translateX(10px);}
+ }
