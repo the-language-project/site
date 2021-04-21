@@ -238,3 +238,10 @@ button {
  .ambContent ul {
      font-weight: 1000;
  }
+
+ .cardsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+ }
