@@ -21,13 +21,13 @@
                         &emsp;<a href="about.html" style="text-decoration: none; font-size: large;">About</a>&emsp;
                         <div class="dropdown-content" style="text-align: left;">
                             <a href="about/mission.html">Our Mission</a>
-                            <a>Our Partners</a>
+                            <a href="about/partners.html">Our Partners</a>
                             <a href="about/team.html">Our Team</a>
                         </div>
                       </div>
                     &emsp;<a href="resources.html" style="text-decoration: none; font-size: large;">Resources</a>&emsp;
                     <div class="dropdown">
-                        &emsp;<a href="sandbox.html" style="text-decoration: none; font-size: large;">Initiatives</a>&emsp;
+                        &emsp;<a href="initiatives.html" style="text-decoration: none; font-size: large;">Initiatives</a>&emsp;
                         <div class="dropdown-content" style="text-align: left;">
                           <a href="sandbox.html">Sandbox</a>
                           <a href="ambassador.html">Ambassador Program</a>
@@ -40,44 +40,57 @@
             </div>
             <br>
             <div class="flag-container">
-                <img src="https://www.countryflags.io/be/flat/64.png">
-                <img src="https://www.countryflags.io/ar/flat/64.png">
-                <img src="https://www.countryflags.io/vn/flat/64.png">
-                <img src="https://www.countryflags.io/au/flat/64.png">
-                <img src="https://www.countryflags.io/cn/flat/64.png">
-                <img src="https://www.countryflags.io/ca/flat/64.png">
-                <img src="https://www.countryflags.io/cu/flat/64.png">
-                <img src="https://www.countryflags.io/it/flat/64.png">
-                <img src="https://www.countryflags.io/es/flat/64.png">
-                <img src="https://www.countryflags.io/gb/flat/64.png">
-                <img src="https://www.countryflags.io/in/flat/64.png">
-                <img src="https://www.countryflags.io/jp/flat/64.png">
-                <img src="https://www.countryflags.io/ph/flat/64.png">
-                <img src="https://www.countryflags.io/kr/flat/64.png">
-                <img src="https://www.countryflags.io/us/flat/64.png">
-                <img src="https://www.countryflags.io/cr/flat/64.png">
-                <img src="https://www.countryflags.io/dk/flat/64.png">
-                <img src="https://www.countryflags.io/eu/flat/64.png">
-                <img src="https://www.countryflags.io/fr/flat/64.png">
-                <img src="https://www.countryflags.io/gh/flat/64.png">
-                <img src="https://www.countryflags.io/gt/flat/64.png">
-                <img src="https://www.countryflags.io/gr/flat/64.png">
-                <img src="https://www.countryflags.io/ie/flat/64.png">
-                <img src="https://www.countryflags.io/lb/flat/64.png">
-                <img src="https://www.countryflags.io/lt/flat/64.png">
-                <img src="https://www.countryflags.io/lv/flat/64.png">
+                <img src="images/flags/china.svg">
+            <img src="images/flags/afghan.svg">
+            <img src="images/flags/australia.svg">
+            <img src="images/flags/austria.svg">
+            <img src="images/flags/bahamas.svg">
+            <img src="images/flags/belgium.svg">
+            <img src="images/flags/bolivia.svg">
+            <img src="images/flags/brunei.svg">
+            <img src="images/flags/burundi.svg">
+            <img src="images/flags/can.svg">
+            <img src="images/flags/colombia.svg">
+            <img src="images/flags/denmark.svg">
+            <img src="images/flags/ethiopia.svg">
+            <img src="images/flags/france.svg">
+            <img src="images/flags/germany.svg">
+            <img src="images/flags/india.svg">
+            <img src="images/flags/indo.svg">
+            <img src="images/flags/japan.svg">
+            <img src="images/flags/jordan.svg">
+            <img src="images/flags/korea.svg">
+            <img src="images/flags/netherlands.svg">
+            <img src="images/flags/phil.svg">
+            <img src="images/flags/spain.svg">
+            <img src="images/flags/sweden.svg">
+            <img src="images/flags/uk.svg">
+            <img src="images/flags/us.svg">
+            <img src="images/flags/yemen.svg">
             </div>
         </div>
             
         
         <br><br><br><br><br>
+        <script type="text/javascript">
+            function submitForm() {
+            // Get the first form with the name
+            // Hopefully there is only one, but there are more, select the correct index
+                var frm = document.getElementsByName('contact-form')[0];
+                frm.submit(); // Submit
+                frm.reset();  // Reset
+                return false; // Prevent page refresh
+            }
+        </script>
     
     </head>
 
 <br><br><br><br><br><br>
 
 <body class="about-body">
+    <img style="width: 100%; height: 350px" src="images/contact page.png"> <br>
     <div class="main">
+        <!-- <?php include 'contact-form-process.php';?> -->
 
         <link href="contact-form.css" rel="stylesheet">
 
@@ -86,7 +99,11 @@
             <div id="fcf-form">
             <h3 class="fcf-h3">Contact us</h3>
         
-            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <form id="fcf-form-id" class="fcf-form-class" name="contact-form"
+            action="https://formspree.io/f/xqkwajzq"
+            method="POST"
+            >
+            <!-- <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php"> -->
                 
                 <div class="fcf-form-group">
                     <label for="Name" class="fcf-label">Your name</label>
@@ -110,7 +127,8 @@
                 </div>
         
                 <div class="fcf-form-group">
-                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                    <!-- <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button> -->
+                    <button type="button" onClick="submitForm();"fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
                 </div>
         
         
@@ -149,8 +167,5 @@
         </footer>
     </div>
 </body>
-
-
-
 
 </html>
