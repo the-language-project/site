@@ -39,7 +39,7 @@ html {
 .menu-nav {
     height: 200%;
     text-align: center;
-    z-index: -1
+    z-index: -1;
 }
 
 a {

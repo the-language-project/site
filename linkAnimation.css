@@ -1,0 +1,66 @@
+:root {
+    --text: #2B3044;
+    --line: #BBC1E1;
+    --line-active: #275EFE;
+}
+#scribble {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    margin: 0 var(--spacing, 0px);
+    transition: margin .25s;
+}
+svg {
+    width: 60px;
+    height: 45px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 10px) translateZ(0);
+    fill: none;
+    stroke: var(--stroke, var(--line));
+    stroke-linecap: round;
+    stroke-width: 2px;
+    stroke-dasharray: var(--offset, 69px) 278px;
+    stroke-dashoffset: 361px;
+    transition: stroke .25s ease var(--stroke-delay, 0s), stroke-dasharray .35s;
+}
+#scribble:hover {
+        --spacing: 4px;
+        --stroke: var(--line-active);
+        --stroke-delay: .1s;
+        --offset: 180px;
+}
+
+/* wavy */
+
+.linkStyled {
+    position: relative;
+    transition: clip-path 275ms ease;
+}
+
+.linkStyled:hover span.wavy::before, .linkStyled:focus span.wavy::before {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+span.wavy {
+      position: relative;
+      display: inline-block;
+      color: #4d9ff7;
+}
+
+span.wavy::before {
+    position: absolute;
+    content: attr(data-content);
+    color: #2c2fe8;
+    text-decoration: underline;
+    text-decoration-color: #2c2fe8;
+    clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+    transition: clip-path 275ms ease;
+}
+
+span.wavy::before {
+    text-decoration-style: wavy;
+    height: 20px;
+  }

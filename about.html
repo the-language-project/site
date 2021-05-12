@@ -29,7 +29,9 @@
 </head> -->
 
 <head>
-    <title>About</title>    
+    <title>About</title>   
+    <link rel="stylesheet" type="text/css" href="linkAnimation.css">
+    <link rel="stylesheet" type="text/css" href="buttonSwipe.css"> 
     <link rel="stylesheet" type="text/css" href="about/about.css">
     <link rel="shortcut icon" type="image/png" href="images/tlp_logo2.png">
     <link rel="stylesheet" type="text/css" href="about/mission.css">
@@ -63,7 +65,7 @@
                     </div>
                   </div>
                   &emsp;<a href="contact.html" style="text-decoration: none; font-size: large;">Contact</a>&emsp;
-                &emsp;<a href="https://www.paypal.com/biz/fund?id=ZETBG9HF9248W" target="_blank"><button style="border: solid;">Donate</button></a>&emsp;
+                &emsp;<a id="swipe" href="https://www.paypal.com/biz/fund?id=ZETBG9HF9248W" target="_blank">Donate</a>&emsp;
 
             </strong>
         </div>
@@ -160,7 +162,13 @@
                     <img src="images/heart.png" style="max-width: 200px;"/>
                 </p>
                 <h4 style="text-align: center;">
-                    Click <span style="background-color: #a7d0fc;"><a href="about/team.html">here</a></span> to see the team behind TLP!
+                    Click <a id="scribble" href="about/team.html">
+                        here
+                        <svg viewBox="0 0 70 36">
+                            <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+                        </svg>
+                    </a> to see the team behind TLP!
+                    <!-- Click <span style="background-color: #a7d0fc;"><a href="about/team.html">here</a></span> to see the team behind TLP! -->
                 </h4>
         
                 <br>
