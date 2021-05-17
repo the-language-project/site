@@ -63,4 +63,52 @@ span.wavy::before {
 span.wavy::before {
     text-decoration-style: wavy;
     height: 20px;
-  }
+}
+
+span.dotted::before {
+    text-decoration-style: dotted;
+}
+  
+span.dashed::before {
+    text-decoration-style: dashed;
+}
+
+
+/* double underline */
+.linkStyled:hover span.double::before, .linkStyled:focus span.double::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+span.double {
+    position: relative;
+    display: inline-block;
+    color: #4d9ff7;
+}
+
+span.double::before {
+  position: absolute;
+  content: attr(data-content);
+  color: #2c2fe8;
+  text-decoration: underline;
+  text-decoration-color: #2c2fe8;
+  clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+  transition: clip-path 275ms ease;
+}
+  
+span.double::before {
+    text-decoration-style: double;
+}
+
+.navigation li{
+	display:inline-block;
+	text-align:center;
+}
+
+
+.navigation li.active{
+	background:red;
+}
+
+.bg-red {
+    background:red;
+}

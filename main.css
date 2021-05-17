@@ -84,12 +84,14 @@ button {
     padding:0 10px;
     border-bottom: dotted;
     vertical-align: bottom;
+    text-align: center;
+    align-items: center;
 }
 
 
 .footer-text {
     text-align: center;
-    
+    align-items: center;
 }
 
 .social-icon {
