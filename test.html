@@ -2,45 +2,79 @@
 <html>
 <head>
     <title>About</title>  
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>
-        $('.clickable-li').click(function(title, text) {
-        $('.image_col-2-wrapper h3').html($(this).attr("mytitle"));
-        $('.image_col-2-wrapper p').html($(this).find(".mytext").html());
-        });
-    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="accordion.js"></script>
     <link rel="stylesheet" type="text/css" href="linkAnimation.css">  
     <link rel="stylesheet" type="text/css" href="buttonSwipe.css">
     <link rel="stylesheet" type="text/css" href="about/about.css">
+    <link rel="stylesheet" type="text/css" href="resources.css">
     <link rel="stylesheet" type="text/css" href="test.css">
     <link rel="shortcut icon" type="image/png" href="images/tlp_logo2.png">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://kit.fontawesome.com/42142524ba.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet"> -->
     <!--Fixed tab-->
     <div class="top-bar">
         &emsp;
-        <!-- <a href="../index.html" style="text-decoration: none;">
+        <a href="index.html" style="text-decoration: none;">
             <h1 style="text-align: center;">The Language Project</h1>
-        </a> -->
+        </a>
         <br><br>
         <div class="menu-nav">
             <strong>
                 <div class="dropdown">
-                    &emsp;<a href="about.html" style="text-decoration: none; font-size: large;"><span style="background-color: #FFFF00">About</span></a>&emsp;
+                    &emsp;<a href="about.html" style="text-decoration: none; font-size: large;">About</a>&emsp;
                     <div class="dropdown-content" style="text-align: left;">
-                      <a href="about/mission.html">Our Mission</a>
-                      <a href="about/team.html">Our Team</a>
+                        <a href="about/mission.html">Our Mission</a>
+                        <a href="about/partners.html">Our Partners</a>
+                        <a href="about/team.html">Our Team</a>
                     </div>
                   </div>
-                &emsp;<a href="resources.html" style="text-decoration: none; font-size: large;">Resources</a>&emsp;
-                &emsp;<a href="sandbox.html" style="text-decoration: none; font-size: large;">Sandbox</a>&emsp;
+                &emsp;<a href="resources.html" style="text-decoration: none; font-size: large;"><span style="background-color: #FFFF00">Resources</span></a>&emsp;
+                <div class="dropdown">
+                    &emsp;<a href="initiatives.html" style="text-decoration: none; font-size: large;">Initiatives</a>&emsp;
+                    <div class="dropdown-content" style="text-align: left;">
+                      <a href="sandbox.html">Sandbox</a>
+                      <a href="ambassador.html">Ambassador Program</a>
+                    </div>
+                  </div>
+                  &emsp;<a href="contact.html" style="text-decoration: none; font-size: large;">Contact</a>&emsp;
                 &emsp;<a id="swipe" href="https://www.paypal.com/biz/fund?id=ZETBG9HF9248W" target="_blank">Donate</a>&emsp;
 
             </strong>
         </div>
         <br>
+        <div class="flag-container">
+            <img src="images/flags/china.svg">
+            <img src="images/flags/afghan.svg">
+            <img src="images/flags/australia.svg">
+            <img src="images/flags/austria.svg">
+            <img src="images/flags/bahamas.svg">
+            <img src="images/flags/belgium.svg">
+            <img src="images/flags/bolivia.svg">
+            <img src="images/flags/brunei.svg">
+            <img src="images/flags/burundi.svg">
+            <img src="images/flags/can.svg">
+            <img src="images/flags/colombia.svg">
+            <img src="images/flags/denmark.svg">
+            <img src="images/flags/ethiopia.svg">
+            <img src="images/flags/france.svg">
+            <img src="images/flags/germany.svg">
+            <img src="images/flags/india.svg">
+            <img src="images/flags/indo.svg">
+            <img src="images/flags/japan.svg">
+            <img src="images/flags/jordan.svg">
+            <img src="images/flags/korea.svg">
+            <img src="images/flags/netherlands.svg">
+            <img src="images/flags/phil.svg">
+            <img src="images/flags/spain.svg">
+            <img src="images/flags/sweden.svg">
+            <img src="images/flags/uk.svg">
+            <img src="images/flags/us.svg">
+            <img src="images/flags/yemen.svg">
+        </div>
     </div>
         
     
@@ -49,16 +83,68 @@
 </head>
 <br><br>
 
-<body class="about-body">
+<body class="main-body">
+
     
     <br><br><br><br>
     
-    <div>
-        <a class="colorLine" href="#"><span>One</span></a><br>
-        <a href="#">One</a><br>
-        <a href="#">One</a><br>
-        <a href="#">One</a><br>
-        <a href="#">One</a><br>
+    
+    <div class="main">
+        
+        <h4>
+            Looking for a starting point? <br> Check out this list (by Fluent-Forever) of 625 words that 
+            help build a solid foundation in any language: <a class="linkStyled" href="https://fluent-forever.com/wp-content/uploads/2014/05/625-List-Thematic.pdf" target="_blank">
+                <span class="wavy" data-content="CLICK HERE FOR LIST">CLICK HERE FOR LIST</span></a>
+        </h4>
+        <br><br>
+    
+        <div style="text-align: center; border:0px; padding: 0px; margin: 0px; max-height: 200px;">
+            <img class="searchImage" src="images/cropped.resourcesImage.png"/>
+        </div>
+        
+        <h4>
+            Looking for more? Below is a hand-curated list of free language learning resources. Periodically
+            updated, so check back every once in a while or bookmark this page! :)
+        </h4>
+    
+    <div class="naccs">
+        <div class="grid">
+         <div class="gc gc--1-of-3">
+          <div class="menu">
+           <div><span>English (as a second language)</span></div>
+           <div><span>Spanish (Español)</span></div>
+           <div><span>French (Français)</span></div>
+          </div>
+         </div>
+         <div class="gc gc--2-of-3">
+          <ul class="nacc">
+           <li >
+            <div>
+             <p><a class="colorLine" href="https://listenaminute.com/">Listen a Minute</a><br><br>
+                <a class="colorLine" href="https://www.elllo.org/">English Listening Lesson Library Online</a><br><br>
+                <a class="colorLine" href="https://www.engvid.com/">engVid</a><br><br>
+                <a class="colorLine" href="https://www.ef.edu/english-resources/">Education First</a><br><br>
+                <a class="colorLine" href="https://www.cambridgeenglish.org/learning-english/free-resources/write-and-improve/">Cambridge English</a><br><br>
+                <a class="colorLine" href="https://www.newsinlevels.com/">News in Levels</a></p><br>
+            </div>
+           </li>
+           <li>
+            <div>
+             <p>A vine (Latin vīnea "grapevine", "vineyard", from vīnum "wine") in the narrowest sense is the grapevine (Vitis), but more generally it can refer to any plant with a growth habit of trailing or scandent (that is, climbing) stems, lianas or runners.
+              The word also can refer to such stems or runners themselves, for instance when used in wicker work.[1][2] In the United Kingdom, the term "vine" applies almost exclusively to the grapevine. The term "climber" is used for all climbing plants.[3]</p>
+            </div>
+           </li>
+           <li>
+            <div>
+             <p>Lemonade is any of various sweetened beverages found around the world, all characterized by lemon flavor. Most lemonade varieties can be separated into two distinct types: cloudy and clear; each is known simply as "lemonade" (or a cognate) in countries
+              where dominant.[1] Cloudy lemonade, generally found in North America and India, is a traditionally homemade drink made with lemon juice, water, and sweetener such as cane sugar or honey.[2] Found in the United Kingdom, Ireland, South Africa, Australia,
+              and New Zealand, clear lemonade is a lemon flavoured carbonated soft drink. Not to be confused with Sprite a lemon-lime flavored, soft drink.</p>
+            </div>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
     </div>
 
     <div class="footer">
