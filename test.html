@@ -2,6 +2,13 @@
 <html>
 <head>
     <title>About</title>  
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        $('.clickable-li').click(function(title, text) {
+        $('.image_col-2-wrapper h3').html($(this).attr("mytitle"));
+        $('.image_col-2-wrapper p').html($(this).find(".mytext").html());
+        });
+    </script>
     <link rel="stylesheet" type="text/css" href="linkAnimation.css">  
     <link rel="stylesheet" type="text/css" href="buttonSwipe.css">
     <link rel="stylesheet" type="text/css" href="about/about.css">
@@ -14,9 +21,9 @@
     <!--Fixed tab-->
     <div class="top-bar">
         &emsp;
-        <a href="../index.html" style="text-decoration: none;">
+        <!-- <a href="../index.html" style="text-decoration: none;">
             <h1 style="text-align: center;">The Language Project</h1>
-        </a>
+        </a> -->
         <br><br>
         <div class="menu-nav">
             <strong>
@@ -45,81 +52,13 @@
 <body class="about-body">
     
     <br><br><br><br>
-<div>
-    <ul class="navigation">
-        <li><a>sth</a></li>
-        <li><a>sth</a></li>
-        <li><a>sth</a></li>
-        <li><a>sth</a></li>
-    </ul>
-</div>
-
-    <a id="scribble" href="#">
-        the link
-        <svg viewBox="0 0 70 36">
-            <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
-        </svg>
-    </a>
-
-    <a class="linkStyled" href="#"><span class="double" data-content="matcha">matcha</span></a>
-    <br><br>
-
-    <form
-  action="https://formspree.io/f/xqkwajzq"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-
-  <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
-</form>
     
-    <video width="100%" autoplay muted loop><source src="images/youth program.mp4" type="video/mp4"></video>
-
-    <!--Purpose-->
-    <a class="swipe" >Test Link</a>
     <div>
-    <div class="browserTab">
-        <div>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle"></i>
-        </div>
-            <i id="plus" class="fas fa-times"></i>
-    </div>
-    <div class="tabContent">
-        <br><br>
-        <h5 style="text-align: center;">
-            Follow us on Instagram! 
-        </h5>
-
-        <br>
-
-        <p style="text-align: center;">
-            <img src="images/tlpig.png" style="max-width: 200px;"/>
-        </p>
-        
-    </div>
-    </div>
-
-    <br><br><br>
-
-    <div class="member">
-        <div class="profilePic">
-            <img src="images/Board /Luis Miguel Varona.png">
-        </div>
-        <div class="content">
-            <h2>Some Name</h2>
-            <h2><span>founder</span></h2>
-        </div>
+        <a class="colorLine" href="#"><span>One</span></a><br>
+        <a href="#">One</a><br>
+        <a href="#">One</a><br>
+        <a href="#">One</a><br>
+        <a href="#">One</a><br>
     </div>
 
     <div class="footer">

@@ -4,6 +4,7 @@
     <head>
         <title>Home</title>   
         <link rel="stylesheet" type="text/css" href="buttonSwipe.css">  
+        <link rel="stylesheet" type="text/css" href="linkAnimation.css">
         <link rel="stylesheet" type="text/css" href="about/about.css">
         <link rel="shortcut icon" type="image/png" href="images/tlp_logo2.png">
         <link rel="stylesheet" type="text/css" href="main.css">
@@ -109,7 +110,11 @@
     <div class="main">
         <p style="text-align: center;">The Language Project  X  YouthLanguageAmbassador: Launched!</p>
 
-        <p style="text-align: center;">Click <a href="https://forms.gle/g9ntxd8Am6i3FA1x6"><strong>HERE</strong></a> for the form to read more and sign up!</p>
+        <p style="text-align: center;">Click <a id="scribble" href="https://forms.gle/g9ntxd8Am6i3FA1x6"><strong>HERE</strong>
+            <svg viewBox="0 0 70 36">
+                <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+            </svg>
+        </a> for the form to read more and sign up!</p>
     </div>
     <br><br><br>
     
@@ -119,26 +124,22 @@
             Language = 
             <span
                 class="txt-rotate"
-                data-period="300"
-                data-rotate='[ "the vision" ]'>
+                data-period="100"
+                data-rotate='[ "the vision " ]'>
             </span>
         </h4>
-        <br>
-        <h3><span style="background-color: #FFFF00">
-            <a href="sandbox.html" style="text-decoration: none;">
-                Driving language learning forward
-                through initiatives at the intersection of language
-                and tech.
-            </a>
-        </span></h3>
-
+        <br><br>
+        <p><a class="underline" href="sandbox.html">
+            Driving language learning forward
+            through initiatives at the intersection of language
+            and tech.
+        </a></p>
+    
         <br><br><br><br>
-
+    
         <h5>
             --The Language Project 
         </h5>
-
-
     </div>
 
     <br><br><br>
