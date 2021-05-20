@@ -15,4 +15,12 @@ body{
     align-self: center;
     border: 0;
     padding: 0;
+    /* height: 50px;
+    width: 200px; */
+    /* text-align: center; border:0px; padding: 0px; margin: 0px; max-height: 400px; */
+}
+
+.searchImage img {
+    height: 250px;
+    width: 300px;
 }

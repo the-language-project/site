@@ -62,7 +62,7 @@ span.wavy::before {
 
 span.wavy::before {
     text-decoration-style: wavy;
-    height: 20px;
+    height: 30px;
 }
   
 span.dashed::before {

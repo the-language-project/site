@@ -1,7 +1,11 @@
-/* accordion */
+
+  /* accordion */
+
 .grid {
  list-style: none;
  margin-left: -40px;
+ display: grid;
+ grid-template-columns: 50% 50%;
 }
 
 .gc {
@@ -15,7 +19,7 @@
 
 .gc--1-of-3 {
  /* width: 33.33333%; */
- width: 50%;
+ /* width: 50%; */
 }
 
 /* .gc--2-of-3 {
@@ -25,12 +29,14 @@
 .naccs, .naccs2 {
  position: relative;
  max-width: 900px;
- /* margin: 100px auto 0; */
+ margin: 100px auto 0;
 }
 
 .naccs .menu div, .naccs2 .menu div {
  padding: 15px 20px 15px ;
  margin-bottom: 10px;
+ /* color: #303F9F;
+ background: #3F51B5; */
  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
  cursor: pointer;
  position: relative;
@@ -43,15 +49,16 @@
  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.naccs .menu div span.light {
+/* .naccs .menu div span.light {
  height: 10px;
  width: 10px;
  position: absolute;
  top: 24px;
  left: 15px;
+ background-color: #303F9F;
  border-radius: 100%;
- /* transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1); */
-}
+ transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+} */
 
 .naccs .menu div.active span.light, .naccs2 .menu div.active span.light {
  background-color: #FBC02D;

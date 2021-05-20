@@ -2,7 +2,8 @@
 
 
 html {
-    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace; 
+    font-family: 'Bitter', serif;
+    overflow-x: hidden;
 
 }
 
@@ -14,14 +15,15 @@ html {
 .top-bar {
     background-color: white;
     padding: 10px;
-    /* overflow: hidden; */
     position: fixed;
     top: 0;
     width: 100%;
     border-top: solid;
-    /* border-bottom: dotted; */
     z-index: 100;
-    /* background-color: #cce6f0; */
+    text-align: center;
+}
+.top-bar h1 {
+    transform: translateX(20px);
 }
 
 .title {
@@ -38,7 +40,7 @@ html {
 
 .menu-nav {
     height: 200%;
-    text-align: center;
+    /* text-align: center; */
     z-index: -1;
 }
 
