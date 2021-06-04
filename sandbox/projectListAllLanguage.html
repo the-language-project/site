@@ -1,39 +1,81 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>Sandbox</title>    
-    <link rel="shortcut icon" type="image/png" href="../images/tlp_logo2.png">
-    <link rel="stylesheet" type="text/css" href="../main.css">
-    <link rel="stylesheet" type="text/css" href="sandbox.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/42142524ba.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <!--Fixed tab-->
-    <div class="top-bar">
-        &emsp;
-        <a href="../index.html" style="text-decoration: none;">
-            <h1 style="text-align: center;">The Language Project</h1>
-
-        </a>
-        <br><br>
-        <div class="menu-nav">
-            <strong>
-                &emsp;<a href="../about.html" style="text-decoration: none; font-size: large;">About</a>&emsp;
-                &emsp;<a href="../resources.html" style="text-decoration: none; font-size: large;">Resources</a>&emsp;
-                &emsp;<a href="../sandbox.html" style="text-decoration: none; font-size: large;"><span style="background-color: #FFFF00">Sandbox</span></a>&emsp;
-                &emsp;<a href="../https://www.paypal.com/biz/fund?id=ZETBG9HF9248W" target="_blank"><button style="border: solid;">Donate</button></a>&emsp;
-
-            </strong>
+    <head>
+        <title>Sandbox</title> 
+        <link rel="stylesheet" type="text/css" href="../buttonSwipe.css">
+        <link rel="stylesheet" type="text/css" href="../about/about.css">
+        <link rel="shortcut icon" type="image/png" href="../images/tlp_logo2.png">
+        <link rel="stylesheet" type="text/css" href="../main.css">
+        <link rel="stylesheet" type="text/css" href="sandbox.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/42142524ba.js" crossorigin="anonymous"></script>
+        <!--Fixed tab-->
+        <div class="top-bar">
+            &emsp;
+            <a href="../index.html" style="text-decoration: none;">
+                <h1 style="text-align: center;">The Language Project</h1>
+            </a>
+            <br><br>
+            <div class="menu-nav">
+                <strong>
+                    <div class="dropdown">
+                        &emsp;<a href="../about.html" style="text-decoration: none; font-size: large;">About</a>&emsp;
+                        <div class="dropdown-content" style="text-align: left;">
+                            <a href="../about/mission.html">Our Mission</a>
+                            <a href="../about/partners.html">Our Partners</a>
+                            <a href="../about/team.html">Our Team</a>
+                        </div>
+                      </div>
+                    &emsp;<a href="../resources.html" style="text-decoration: none; font-size: large;">Resources</a>&emsp;
+                    <div class="dropdown">
+                        &emsp;<a href="../initiatives.html" style="text-decoration: none; font-size: large;"><span style="background-color: #FFFF00">Initiatives</span></a>&emsp;
+                        <div class="dropdown-content" style="text-align: left;">
+                          <a href="../sandbox.html">Sandbox</a>
+                          <a href="../ambassador.html">Ambassador Program</a>
+                        </div>
+                      </div>
+                      &emsp;<a href="../contact.html" style="text-decoration: none; font-size: large;">Contact</a>&emsp;
+                    &emsp;<a id="swipe" href="https://www.paypal.com/biz/fund?id=ZETBG9HF9248W" target="_blank">Donate</a>&emsp;
+    
+                </strong>
+            </div>
+            <br>
+            <div class="flag-container">
+                <img src="../images/flags/china.svg">
+                <img src="../images/flags/afghan.svg">
+                <img src="../images/flags/australia.svg">
+                <img src="../images/flags/austria.svg">
+                <img src="../images/flags/bahamas.svg">
+                <img src="../images/flags/belgium.svg">
+                <img src="../images/flags/bolivia.svg">
+                <img src="../images/flags/brunei.svg">
+                <img src="../images/flags/burundi.svg">
+                <img src="../images/flags/can.svg">
+                <img src="../images/flags/colombia.svg">
+                <img src="../images/flags/denmark.svg">
+                <img src="../images/flags/ethiopia.svg">
+                <img src="../images/flags/france.svg">
+                <img src="../images/flags/germany.svg">
+                <img src="../images/flags/india.svg">
+                <img src="../images/flags/indo.svg">
+                <img src="../images/flags/japan.svg">
+                <img src="../images/flags/jordan.svg">
+                <img src="../images/flags/korea.svg">
+                <img src="../images/flags/netherlands.svg">
+                <img src="../images/flags/phil.svg">
+                <img src="../images/flags/spain.svg">
+                <img src="../images/flags/sweden.svg">
+                <img src="../images/flags/uk.svg">
+                <img src="../images/flags/us.svg">
+                <img src="../images/flags/yemen.svg">
+            </div>
         </div>
+            
         
-    </div>
-    <br><br><br>
-
-</head>
+        <br><br><br><br><br>
+    </head>
 
 <br><br>
 <body class="main-body">
@@ -184,28 +226,42 @@
     <!-- slideshow end here -->
 
     <div class="footer">
-        <footer>
+        <br><br>
+        <img class="title" src="../images/tlp_logo2.png"/><br>
+        <button style="background-color: white; width: 250px; height: 50px; border-radius: 15px; border-color: #4a8cad;"><a style="display: grid; grid-template-columns: 10% 90%;" href=" https://join.slack.com/t/the-language-project/shared_invite/zt-q2rqktcw-eKwC5gFBN995oiGLCY_Gbg"> 
+            <img src="../images/slack.svg" style="width: 40px; height: 40px; float: right; transform: translateX(10px);"/> 
+            <span style="transform: translateY(12px); color: #f8a848; font-weight: bold;">Join Our Slack Channel!</span></a>
+        </button><br>
+        <img href="https://cdn.brandfolder.io/5H442O3W/at/pl54cs-bd9mhs-15gdx1/btn-add-to-slack__1x.png"/>
+        <div>
+            <p style="text-align: center; letter-spacing: 2px; color: #4a8cad;">
+                Sign up for our newsletter!<br>
+                <img style="width: 50px; height: 50px;" src="../images/newsletter2.jpeg"><br>
+                <iframe src="https://thelanguageproject.substack.com/embed" width="280" height="80" style="padding: 0px; " frameborder="0" scrolling="no"></iframe>
+            </p>
+        </div>
+        <div style="color: #4a8cad;">
+        &#169; The Language Project 2021&emsp;|&emsp;All rights reserved&emsp;|&emsp;Tel: (301)401-9954&emsp;|&emsp;
+        <a href="mailto:contact@the-language-project.org">
+            <img src="../images/email.jpeg" class="social-icon"/>
+        </a>&emsp;
+        <a href="https://www.instagram.com/the.language.project/?hl=en" target="_blank">
+            <img src="../images/ig.jpeg" class="social-icon"/>
+        </a>&emsp;
+        <a href="https://twitter.com/TheLanguagePro1" target="_blank">
+            <img src="../images/tw.jpeg" class="social-icon"/>
+        </a>&emsp;
+        <a href="https://www.youtube.com/channel/UCgzzahbO-I2UGnRjFaQKEpA" target="_blank">
+            <img src="../images/yt.jpeg" class="social-icon"/>
+        </a>&emsp;
+        <a href="https://www.linkedin.com/company/the-language-project-inc" target="_blank">
+            <img src="../images/in.jpeg" class="social-icon"/>
+        </a>&emsp;
+        <a href="https://www.facebook.com/thelanguageproject-102216541927883" target="_blank">
+            <img src="../images/fb.jpeg" class="social-icon"/>
+        </a>&emsp;
             <br>
-            <p class="footer-text"><img class="title" src="../images/tlp_logo2.png"/> <br>
-                &#169; The Language Project 2021&emsp;|&emsp;All rights reserved&emsp;|&emsp;Tel: (301)401-9954&emsp;|&emsp;
-                <a href="mailto:contact@the-language-project.org"><img src="../images/mail.png" class="social-icon"/></a>
-                <a href="https://www.instagram.com/the.language.project/?hl=en" target="_blank">
-                    <img src="../images/ig.png" class="social-icon"/>
-                </a>
-                <a href="https://twitter.com/TheLanguagePro1" target="_blank">
-                    <img src="../images/twt.png" class="social-icon"/>
-                </a>
-                <a href="https://www.youtube.com/channel/UCgzzahbO-I2UGnRjFaQKEpA" target="_blank">
-                    <img src="../images/ytbe.png" class="social-icon"/>
-                </a>
-                <a href="https://www.linkedin.com/company/the-language-project-inc" target="_blank">
-                    <img src="../images/ln.png" class="social-icon"/>
-                </a>
-                <a href="https://www.facebook.com/thelanguageproject-102216541927883" target="_blank">
-                    <img src="../images/fb.svg" class="social-icon"/>
-                </a>
-            </p> <br>
-        </footer>
+        </div>
     </div>
 
     <script>
