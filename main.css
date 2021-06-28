@@ -262,3 +262,27 @@ button {
 body{
     perspective: 1000px;
 }
+
+
+/* vid icon index.js */
+
+.video img {
+    display: none;
+}
+/* @media screen and (min-width: 400px){
+
+    .video img {
+        display: none;
+    }
+} */
+
+@media screen and (min-width: 1000px) {
+    .video {
+        display: grid;
+        grid-template-columns: 30% 70%;   
+    }
+
+    .video img {
+        display: block;
+    }
+}
